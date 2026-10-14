@@ -65,16 +65,9 @@ In the usual `philo` version, philosophers run as **threads** and forks are prot
 - Preventing deadlock alone is not enough; race safety and fairness matter too.
 - Modeling the table clearly (circular list) made the concurrency rules easier to reason about.
 
-## Image credit
-
-- Wikimedia Commons source page for the diagram used here:  
-  https://commons.wikimedia.org/wiki/File:Dining_philosophers.svg
-
 ## References
 
 - GeeksforGeeks style/reference article:  
-  https://www.geeksforgeeks.org/operating-systems/dining-philosophers-problem/
-- Wikimedia Commons image page:  
-  https://commons.wikimedia.org/wiki/File:Dining_philosophers.svg
+  https://www.geeksforgeeks.org/operating-systems/dining-philosophers-problem/ 
 - Optional illustrated variant (CC BY-SA, Wikimedia Commons):  
   https://commons.wikimedia.org/wiki/File:An_illustration_of_the_dining_philosophers_problem.png
