@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="490" viewBox="0 0 1000 490" role="img" aria-labelledby="title desc">
+  <title id="title">Circular linked list of philosophers</title>
+  <desc id="desc">Five nodes arranged in a circle, each pointing to the next, with the last node pointing back to the first node.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#172b42"/></linearGradient>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#6ee7b7"/></marker>
+    <style>.title{font:700 30px sans-serif;fill:#f8fafc}.sub{font:17px sans-serif;fill:#cbd5e1}.node{fill:#193c67;stroke:#7db7ff;stroke-width:3}.label{font:700 19px sans-serif;fill:#f8fafc}.small{font:16px sans-serif;fill:#dbeafe}.edge{fill:none;stroke:#6ee7b7;stroke-width:4;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1000" height="490" rx="24" fill="url(#bg)"/>
+  <text x="40" y="52" class="title">A circular linked list</text>
+  <text x="40" y="81" class="sub">Each node points to its next neighbor; the last node links back to the first.</text>
+  <path d="M 552 156 Q 695 112 760 213" class="edge"/>
+  <path d="M 791 270 Q 806 366 687 390" class="edge"/>
+  <path d="M 610 414 Q 470 451 378 395" class="edge"/>
+  <path d="M 321 365 Q 238 310 273 237" class="edge"/>
+  <path d="M 309 189 Q 384 98 460 145" class="edge"/>
+  <circle cx="500" cy="145" r="48" class="node"/><text x="500" y="151" text-anchor="middle" class="label">P0</text>
+  <circle cx="785" cy="240" r="48" class="node"/><text x="785" y="246" text-anchor="middle" class="label">P1</text>
+  <circle cx="650" cy="400" r="48" class="node"/><text x="650" y="406" text-anchor="middle" class="label">P2</text>
+  <circle cx="350" cy="400" r="48" class="node"/><text x="350" y="406" text-anchor="middle" class="label">P3</text>
+  <circle cx="215" cy="240" r="48" class="node"/><text x="215" y="246" text-anchor="middle" class="label">P4</text>
+  <path d="M 181 202 C 160 124 280 107 358 116 C 407 120 433 130 450 139" class="edge"/>
+  <text x="40" y="458" class="small">Circular structure models a circular table; synchronization still controls access to forks.</text>
+</svg>

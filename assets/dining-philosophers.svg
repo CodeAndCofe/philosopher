@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="680" viewBox="0 0 1000 680" role="img" aria-labelledby="title desc">
+  <title id="title">Dining Philosophers Problem</title>
+  <desc id="desc">Five philosophers sit in a circle with one fork between each neighboring pair. Each philosopher needs both adjacent forks to eat.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#172b42"/></linearGradient>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#a7c7e7"/></marker>
+    <style>
+      .title{font:700 32px sans-serif;fill:#f8fafc}.sub{font:17px sans-serif;fill:#cbd5e1}.p{fill:#193c67;stroke:#7db7ff;stroke-width:3}.fork{stroke:#ffc46b;stroke-width:8;stroke-linecap:round}.label{font:700 18px sans-serif;fill:#f8fafc}.forklabel{font:15px sans-serif;fill:#ffd89a}.note{font:16px sans-serif;fill:#dbeafe}
+    </style>
+  </defs>
+  <rect width="1000" height="680" rx="24" fill="url(#bg)"/>
+  <text x="42" y="52" class="title">The Dining Philosophers Problem</text>
+  <text x="42" y="82" class="sub">One table · five philosophers · five shared forks</text>
+  <circle cx="500" cy="345" r="190" fill="#102035" stroke="#426181" stroke-width="3"/>
+  <circle cx="500" cy="345" r="90" fill="#203a52" stroke="#6885a1" stroke-width="2"/>
+  <text x="500" y="337" text-anchor="middle" class="label">Shared</text>
+  <text x="500" y="362" text-anchor="middle" class="label">resources</text>
+  <!-- forks between philosophers -->
+  <g class="fork">
+    <line x1="610" y1="187" x2="624" y2="208"/><line x1="615" y1="181" x2="636" y2="172"/><line x1="620" y1="188" x2="642" y2="179"/><line x1="624" y1="195" x2="646" y2="186"/>
+    <line x1="695" y1="378" x2="671" y2="382"/><line x1="700" y1="369" x2="720" y2="357"/><line x1="700" y1="378" x2="721" y2="366"/><line x1="701" y1="387" x2="722" y2="375"/>
+    <line x1="483" y1="523" x2="484" y2="499"/><line x1="474" y1="527" x2="458" y2="547"/><line x1="483" y1="528" x2="467" y2="548"/><line x1="492" y1="529" x2="476" y2="549"/>
+    <line x1="316" y1="407" x2="339" y2="400"/><line x1="307" y1="399" x2="287" y2="411"/><line x1="311" y1="407" x2="291" y2="419"/><line x1="315" y1="415" x2="295" y2="427"/>
+    <line x1="374" y1="220" x2="392" y2="238"/><line x1="366" y1="214" x2="345" y2="223"/><line x1="372" y1="220" x2="351" y2="229"/><line x1="378" y1="226" x2="357" y2="235"/>
+  </g>
+  <!-- philosophers -->
+  <g>
+    <circle cx="500" cy="155" r="48" class="p"/><text x="500" y="151" text-anchor="middle" class="label">P0</text><text x="500" y="174" text-anchor="middle" class="note">thinking</text>
+    <circle cx="700" cy="290" r="48" class="p"/><text x="700" y="286" text-anchor="middle" class="label">P1</text><text x="700" y="309" text-anchor="middle" class="note">hungry</text>
+    <circle cx="625" cy="505" r="48" class="p"/><text x="625" y="501" text-anchor="middle" class="label">P2</text><text x="625" y="524" text-anchor="middle" class="note">eating</text>
+    <circle cx="375" cy="505" r="48" class="p"/><text x="375" y="501" text-anchor="middle" class="label">P3</text><text x="375" y="524" text-anchor="middle" class="note">sleeping</text>
+    <circle cx="300" cy="290" r="48" class="p"/><text x="300" y="286" text-anchor="middle" class="label">P4</text><text x="300" y="309" text-anchor="middle" class="note">thinking</text>
+  </g>
+  <text x="42" y="614" class="note">Each philosopher needs both neighboring forks before eating.</text>
+  <text x="42" y="640" class="note">Forks are exclusive resources: one fork cannot be held by two philosophers at once.</text>
+</svg>
