@@ -11,7 +11,7 @@ The Dining Philosophers problem models resource sharing:
 - To eat, a philosopher must hold both left and right forks.
 - Philosophers cycle through thinking, eating, and sleeping.
 
-![Dining Philosophers diagram (Wikimedia Commons)](https://upload.wikimedia.org/wikipedia/commons/7/76/Dining_philosophers.svg)
+![Dining Philosophers diagram](assets/dining-philosophers.svg)
 
 The challenge is not printing states — it is coordinating shared resources safely.
 
@@ -67,7 +67,7 @@ In the usual `philo` version, philosophers run as **threads** and forks are prot
 
 ## Image credit
 
-- Dining philosophers SVG from Wikimedia Commons:  
+- Wikimedia Commons source page for the diagram used here:  
   https://commons.wikimedia.org/wiki/File:Dining_philosophers.svg
 
 ## References
